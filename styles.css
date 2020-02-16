@@ -1,0 +1,174 @@
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-color{
+  color: white;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+  color: white;
+}
+.nav a:hover {
+  color: blue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header {
+    text-align: center;
+    background: url(images/rum.png) no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1;
+  }
+  header .profile-image {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+
+  .card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+  }
+/* card för innehåll bild på planlösning */
+  .card-maps {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 2000px;
+    align-items: center;
+    background: #fff;
+    border-radius: 6px;
+  }
+/* knappar på förstasidan */
+  .button {
+    background-color: rgb(33, 133, 199);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    width: 50%;
+    
+  }
+  .button:hover {
+    background-color: lightblue; 
+    color: white;
+  }
+
+  .button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+
+  .tag-name {
+    color: #f7f5f0;
+
+  }
+
+  .maps{
+    align-items: center;
+
+  }
+
+  .maps:hover{
+    scale: 200%;
+  }
+
+  .rullgardin {
+
+    background-color: rgb(33, 133, 199);
+      border: none;
+      border-radius: 12px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 5px;
+      width: 50%;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  footer .copyright {
+    top: -8px;
+    margin-right: 20px;
+    font-size: .75em;
+  }

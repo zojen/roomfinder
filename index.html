@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <title>Konferensrumskartan</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="styles.css">
+          <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+        <body>
+          <div class="main-nav">
+            <ul class="nav">
+              <li class="name">Daniel Morgenstern</li>
+              <li><a href="index.html">Hem</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+            <header>
+                <img src="https://media.giphy.com/media/U4YEoSRgz5JtebnYqH/giphy.gif" alt="Picture of map" class="profile-image">
+                <br></br>
+                <br></br>
+                <br></br>
+                <h1 class="tag-name">Konferenserumskartan</h1>
+                <p class="tag-location">Här kan du enkelt hitta det konferenserum som du söker</p>
+              </header>
+              <main class="flex">
+
+                <div class="card">
+                  <ul>
+                    <li class="button"><a href="båttenvåning.html">Bottenvåning</a></li>
+                    <br>
+                    <li class="button"><a href="våning1.html">Våning 1</a></li>
+                    <li class="button"><a href="våning2.html">Våning 2</a></li>
+                    <br>
+                    <li class="button"><a href="våning3.html">Våning 3</a></li>
+                    <li class="button"><a href="våning4.html">Våning 4</a></li>
+                  </ul>
+                </div>
+
+                <div class="card">
+                  <h2>Konferenserum</h2>
+                  <label for="rum"></label>
+                  <select class="rullgardin" name="forma" onchange="location = this.value;">
+                    <option value="">Välj</option>
+                    <option value="våning1.html">Bilen</option>
+                    <option value="våning2.html">Släpvagnen</option>
+                    <option value="våning4.html">Mirage</option>
+                   </select>
+        
+                </div>
+              </main>  
+                
+              <footer>
+                <p class="copyright">Copyright 2020, Daniel Morgenstern</p>
+              </footer>
+        </body>
+    </html>
